@@ -83,7 +83,7 @@ export default function ProfileForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          { months.map((month, index) => <SelectItem value={`${index + 1}`} disabled={(index + 1) <= currentMonth && form.getValues().year === `${currentYear}`}>{ month }</SelectItem>)}
+                          { months.map((month, index) => <SelectItem key={index} value={`${index + 1}`} disabled={(index + 1) <= currentMonth && form.getValues().year === `${currentYear}`}>{ month }</SelectItem>)}
                         </SelectContent>
                       </Select>
                       <FormMessage />
