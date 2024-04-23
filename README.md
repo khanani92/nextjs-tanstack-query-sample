@@ -17,4 +17,4 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-For Live Demo [Vercel](https://nextjs-tanstack-query-sample-nmgb30gl0.vercel.app/)
+For Live Demo [Vercel](https://nextjs-tanstack-query-sample.vercel.app/)
